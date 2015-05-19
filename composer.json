@@ -1,0 +1,28 @@
+{
+	"name": "saigon/conpago-console-contract",
+	"description": "Conpago console commandline framework abstraction layer.",
+	"version": "0.0.1-alpha",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Bartosz Gołek",
+			"email": "bartosz.golek@gmail.com",
+			"homepage": "http://bartosz.golek.biz"
+		}
+	],
+	"require": {
+	},
+	"require-dev": {
+		"pdepend/pdepend": "*",
+		"phpmd/phpmd": "*",
+		"squizlabs/php_codesniffer": "*",
+		"sebastian/phpcpd": "*",
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Saigon\\Conpago\\Console\\Contract\\": "src/"
+		}
+	}
+}
