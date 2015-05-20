@@ -1,7 +1,6 @@
 {
-	"name": "saigon/conpago-console-contract",
-	"description": "Conpago console commandline framework abstraction layer.",
-	"version": "0.0.1-alpha",
+	"name": "saigon/conpago-migrations-contract",
+	"description": "Conpago migrations abstraction layer.",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -22,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\Console\\Contract\\": "src/"
+			"Saigon\\Conpago\\Migrations\\Contract\\": "src/"
 		}
 	}
 }
