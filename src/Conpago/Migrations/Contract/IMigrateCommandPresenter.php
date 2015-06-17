@@ -6,7 +6,7 @@
 	 * Time: 00:39
 	 */
 
-	namespace Saigon\Conpago\Migrations\Contract;
+	namespace Conpago\Migrations\Contract;
 
 
 	interface IMigrateCommandPresenter

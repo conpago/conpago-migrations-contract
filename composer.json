@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-migrations-contract",
+	"name": "conpago/conpago-migrations-contract",
 	"description": "Conpago migrations abstraction layer.",
 	"type": "library",
 	"license": "MIT",
@@ -21,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\Migrations\\Contract\\": "src/"
+			"Conpago\\Migrations\\Contract\\": "src/"
 		}
 	}
 }

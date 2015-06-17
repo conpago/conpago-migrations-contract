@@ -6,7 +6,7 @@
 	 * Time: 19:43
 	 */
 
-	namespace Saigon\Conpago\Migrations\Contract;
+	namespace Conpago\Migrations\Contract;
 
 
 	interface IMigration {
