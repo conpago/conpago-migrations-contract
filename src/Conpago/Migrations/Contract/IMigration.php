@@ -24,5 +24,5 @@ interface IMigration
      *
      * @return void
      */
-    public function apply();
+    public function apply(): void;
 }

@@ -26,14 +26,14 @@ interface IMigrateCommandPresenter
      *
      * @return void
      */
-    public function migrationStarted($count);
+    public function migrationStarted(int $count): string;
 
     /**
      * Report finish of migration process.
      *
      * @return void
      */
-    public function migrationEnded();
+    public function migrationEnded(): void;
 
     /**
      * Report run of migration.
@@ -43,5 +43,5 @@ interface IMigrateCommandPresenter
      *
      * @return void
      */
-    public function runningMigration($number, $count);
+    public function runningMigration(int $number, int $count): void;
 }
