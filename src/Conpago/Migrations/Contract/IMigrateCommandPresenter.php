@@ -26,7 +26,7 @@ interface IMigrateCommandPresenter
      *
      * @return void
      */
-    public function migrationStarted(int $count): string;
+    public function migrationStarted(int $count): void;
 
     /**
      * Report finish of migration process.
